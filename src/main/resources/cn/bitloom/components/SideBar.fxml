@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="sideBar" styleClass="sidebar" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="cn.bitloom.controller.SideBarController">
+    
+    <VBox styleClass="sidebar-content">
+        <HBox fx:id="homeOption" styleClass="sidebar-option" alignment="CENTER_LEFT">
+            <Label text="⌂" styleClass="sidebar-icon"/>
+            <Label text="首页" styleClass="sidebar-option-label"/>
+        </HBox>
+        
+        <HBox fx:id="favoritesOption" styleClass="sidebar-option" alignment="CENTER_LEFT">
+            <Label text="★" styleClass="sidebar-icon"/>
+            <Label text="收藏" styleClass="sidebar-option-label"/>
+        </HBox>
+        
+        <HBox fx:id="tagsOption" styleClass="sidebar-option" alignment="CENTER_LEFT">
+            <Label text="⌗" styleClass="sidebar-icon"/>
+            <Label text="标签" styleClass="sidebar-option-label"/>
+        </HBox>
+        
+        <HBox fx:id="settingsOption" styleClass="sidebar-option" alignment="CENTER_LEFT">
+            <Label text="⚙" styleClass="sidebar-icon"/>
+            <Label text="设置" styleClass="sidebar-option-label"/>
+        </HBox>
+    </VBox>
+</VBox>

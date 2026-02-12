@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="homePage" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="cn.bitloom.controller.HomePageController"
+      alignment="CENTER"
+      VBox.vgrow="ALWAYS"
+      spacing="15"
+      style="-fx-padding: 20"
+>
+
+    <VBox fx:id="icon" alignment="CENTER">
+        <ImageView fitWidth="90" fitHeight="90">
+            <Image url="@../images/icon.png"/>
+        </ImageView>
+    </VBox>
+
+    <ScrollPane fx:id="scrollPane" fitToWidth="true" hbarPolicy="never"
+                visible="false" managed="false" VBox.vgrow="ALWAYS"
+                maxWidth="700" minWidth="300"
+    >
+        <FlowPane fx:id="gridPane" styleClass="grid-container" hgap="16" vgap="16"/>
+    </ScrollPane>
+
+    <VBox fx:id="searchBox"
+          alignment="TOP_CENTER"
+          maxHeight="100" minHeight="100"
+          prefWidth="600" maxWidth="700"
+          style="-fx-background-color: #f5f5f7;-fx-background-radius: 25px;"
+    >
+        <TextField fx:id="searchField" promptText="输入关键词搜索表情包..." styleClass="search-field"
+                   prefHeight="56" maxWidth="700" minWidth="300"/>
+        <HBox alignment="BOTTOM_RIGHT" spacing="8">
+            <Button styleClass="icon-btn" prefWidth="37" prefHeight="37">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16">
+                        <Image url="@../images/globe.png"/>
+                    </ImageView>
+                </graphic>
+                <HBox.margin>
+                    <Insets bottom="8"/>
+                </HBox.margin>
+            </Button>
+            <Button styleClass="icon-btn" prefWidth="37" prefHeight="37">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16">
+                        <Image url="@../images/plus.png"/>
+                    </ImageView>
+                </graphic>
+                <HBox.margin>
+                    <Insets bottom="8"/>
+                </HBox.margin>
+            </Button>
+            <Button fx:id="searchButton" styleClass="search-btn" prefWidth="37" prefHeight="37">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16">
+                        <Image url="@../images/arrow-up.png"/>
+                    </ImageView>
+                </graphic>
+                <HBox.margin>
+                    <Insets right="8" bottom="8"/>
+                </HBox.margin>
+            </Button>
+        </HBox>
+    </VBox>
+
+</VBox>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85f2b40c-1778-4427-b2a8-50fabba6e091" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/StickersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/enums/FetchSourceEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/enums/ImageFileExtensionEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/holder/PageHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/model/ImageData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/service/WeChatFetchSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/util/BrowserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/util/ExecutorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/util/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/bitloom/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/bitloom/index.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/chineseBqb.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;botloom&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Microsoft/vcpkg.git&quot;,
+    &quot;accountId&quot;: &quot;3197f23a-ebe5-4788-954d-9c744e3bdb09&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="38bJQQsjGqsrfkVqT7awmMm7Fyf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml.wechat: Compose 部署.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.stickers [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.stickers [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.stickers [org.apache.maven.plugins:maven-jar-plugin:3.4.2:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.stickers [org.apache.maven.plugins:maven-jlink-plugin:3.2.0:jlink].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.stickers [org.openjfx:javafx-maven-plugin:0.0.8:jlink].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.stickers [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.stickers [validate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TRS/Desktop/stickers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.App.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StickersApplication.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TRS\Desktop\stickers\src\main\resources\db" />
+      <recent name="C:\Users\TRS\Desktop\stickers\src\main\resources\cn\bitloom\components" />
+      <recent name="C:\Users\TRS\Desktop\stickers\src\main\resources\cn\bitloom\images" />
+      <recent name="C:\Users\TRS\Desktop\stickers\src\main\java" />
+      <recent name="C:\Users\TRS\Desktop\stickers\src\main\resources\cn\bitloom" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.bitloom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.StickersApplication">
+    <configuration name="StickersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.bitloom.StickersApplication" />
+      <module name="stickers" />
+      <option name="PROGRAM_PARAMETERS" value="-Djava.net.useSystemProxies=true" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bitloom.holder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.wechat: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="wechat" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.wechat: Compose 部署" />
+      <item itemvalue="应用程序.StickersApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.StickersApplication" />
+        <item itemvalue="Docker.docker-compose.yml.wechat: Compose 部署" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.33" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.33" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="85f2b40c-1778-4427-b2a8-50fabba6e091" name="更改" comment="" />
+      <created>1769062321779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769062321779</updated>
+      <workItem from="1769062323059" duration="139000" />
+      <workItem from="1769062482880" duration="1221000" />
+      <workItem from="1769063921636" duration="1776000" />
+      <workItem from="1769065886036" duration="1887000" />
+      <workItem from="1769069834079" duration="2149000" />
+      <workItem from="1769088057801" duration="139000" />
+      <workItem from="1769130445208" duration="27000" />
+      <workItem from="1769150646020" duration="7000" />
+      <workItem from="1769155946145" duration="3168000" />
+      <workItem from="1769238977828" duration="5933000" />
+      <workItem from="1769245950754" duration="7718000" />
+      <workItem from="1769256816985" duration="41839000" />
+      <workItem from="1769438429586" duration="4665000" />
+      <workItem from="1769443333596" duration="23351000" />
+      <workItem from="1769585901093" duration="7012000" />
+      <workItem from="1769605355872" duration="18782000" />
+      <workItem from="1769671319694" duration="255000" />
+      <workItem from="1769735561214" duration="10991000" />
+      <workItem from="1769873829577" duration="28581000" />
+      <workItem from="1769939481696" duration="4502000" />
+      <workItem from="1769948139499" duration="5603000" />
+      <workItem from="1769994326836" duration="14983000" />
+      <workItem from="1770080998735" duration="16161000" />
+      <workItem from="1770166444751" duration="4692000" />
+      <workItem from="1770173753219" duration="17705000" />
+      <workItem from="1770253719318" duration="10549000" />
+      <workItem from="1770268241668" duration="626000" />
+      <workItem from="1770296787806" duration="13235000" />
+      <workItem from="1770340748500" duration="75000" />
+      <workItem from="1770341477418" duration="855000" />
+      <workItem from="1770356284661" duration="15065000" />
+      <workItem from="1770393678365" duration="4334000" />
+      <workItem from="1770526386173" duration="10692000" />
+      <workItem from="1770569072082" duration="435000" />
+      <workItem from="1770599267909" duration="15000" />
+      <workItem from="1770630547304" duration="623000" />
+      <workItem from="1770637464991" duration="654000" />
+      <workItem from="1770646925654" duration="2510000" />
+      <workItem from="1770693280635" duration="2302000" />
+      <workItem from="1770772434301" duration="25575000" />
+      <workItem from="1770808135637" duration="3963000" />
+      <workItem from="1770858515243" duration="15821000" />
+      <workItem from="1770895302611" duration="812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/microsoft/playwright/playwright/1.53.0/playwright-1.53.0-sources.jar!/com/microsoft/playwright/impl/JsonPipe.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/bitloom/controller/IndexController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="tagsPage" styleClass="tags-page" visible="false" managed="false" VBox.vgrow="ALWAYS"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="cn.bitloom.controller.TagsPageController"
+      alignment="TOP_CENTER"
+>
+    <ScrollPane fitToWidth="true" fitToHeight="true" hbarPolicy="NEVER" VBox.vgrow="ALWAYS"
+                styleClass="tags-scroll-pane" prefWidth="600" maxWidth="700">
+        <VBox styleClass="tags-content" spacing="20">
+
+        </VBox>
+    </ScrollPane>
+</VBox>

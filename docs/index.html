@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticker - 软件演示</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="cursor-indicator" id="cursorIndicator">
+        <svg viewBox="0 0 24 24" fill="none">
+            <path d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.86a.5.5 0 0 0-.85.35z" fill="#000000" stroke="#ffffff" stroke-width="1.5"/>
+        </svg>
+    </div>
+    
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="nav-logo">Sticker</div>
+            <a href="https://github.com/botloom/stickers" class="github-btn" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>GitHub</span>
+            </a>
+        </div>
+    </nav>
+    
+    <div class="demo-container">
+        <div class="window-mockup">
+            <div class="window-titlebar">
+                <div class="window-controls">
+                    <div class="window-btn close"></div>
+                    <div class="window-btn minimize"></div>
+                    <div class="window-btn maximize"></div>
+                </div>
+                <div class="window-title">Sticker</div>
+            </div>
+            
+            <div class="window-body">
+                <div class="sidebar">
+                    <div class="sidebar-option active" id="sidebar-home">
+                        <span class="sidebar-icon">⌂</span>
+                        <span>首页</span>
+                    </div>
+                    <div class="sidebar-option" id="sidebar-favorites">
+                        <span class="sidebar-icon">★</span>
+                        <span>收藏</span>
+                    </div>
+                    <div class="sidebar-option" id="sidebar-settings">
+                        <span class="sidebar-icon">⚙</span>
+                        <span>设置</span>
+                    </div>
+                </div>
+
+                <div class="main-content">
+                    <div class="button-bar">
+                        <button class="menu-btn">☰</button>
+                        <div class="dynamic-buttons">
+                            <button class="dynamic-btn" id="clearBtn">Clear</button>
+                            <button class="dynamic-btn" id="saveSettingsBtn" style="display: none;">保存设置</button>
+                            <button class="dynamic-btn" id="resetSettingsBtn" style="display: none;">恢复默认</button>
+                        </div>
+                        <div class="status-bar" id="statusBar">就绪</div>
+                    </div>
+
+                    <div class="page home-page" id="homePage">
+                        <div class="icon-container">
+                            <div class="app-icon">
+                                <img src="../src/main/resources/cn/bitloom/images/icon.png" alt="Sticker" width="90" height="90">
+                            </div>
+                        </div>
+                        <div class="search-container" id="searchContainer">
+                            <div class="search-box">
+                                <input type="text" class="search-field" placeholder="输入关键词搜索表情包..." id="searchInput">
+                                <div class="search-buttons">
+                                    <button class="icon-btn" id="globeBtn">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1d1d1f" stroke-width="2">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                        </svg>
+                                    </button>
+                                    <button class="icon-btn" id="plusBtn">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1d1d1f" stroke-width="2">
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>
+                                    </button>
+                                    <button class="search-btn" id="searchBtn">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2">
+                                            <line x1="12" y1="19" x2="12" y2="5"></line>
+                                            <polyline points="5 12 12 5 19 12"></polyline>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-container" id="resultsContainer">
+                            <div class="grid-container" id="gridContainer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page favorites-page" id="favoritesPage" style="display: none;">
+                        <div class="favorites-content">
+                            <div class="grid-container" id="favoritesGrid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page settings-page" id="settingsPage" style="display: none;">
+                        <div class="settings-content">
+                            <div class="settings-section">
+                                <div class="settings-section-label">浏览器</div>
+                                <div class="settings-card">
+                                    <div class="settings-row">
+                                        <div class="settings-row-title">浏览器路径</div>
+                                        <div class="settings-path-row">
+                                            <input type="text" class="settings-path-field" id="browserPathField" placeholder="选择浏览器可执行文件">
+                                            <button class="settings-secondary-button" id="browseBrowserBtn">更改</button>
+                                        </div>
+                                        <div class="settings-row-subtitle">用于抓取表情包的浏览器路径</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="settings-section">
+                                <div class="settings-section-label">下载</div>
+                                <div class="settings-card">
+                                    <div class="settings-row">
+                                        <div class="settings-row-title">保存位置</div>
+                                        <div class="settings-path-row">
+                                            <input type="text" class="settings-path-field" id="savePathField" placeholder="选择保存目录">
+                                            <button class="settings-secondary-button" id="browseBtn">更改</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="settings-section">
+                                <div class="settings-section-label">抓取源</div>
+                                <div class="settings-card" id="fetchSourceContainer">
+                                    <div class="settings-row">
+                                        <div class="settings-row-header">
+                                            <div class="settings-row-title">ChineseBqb</div>
+                                            <label class="settings-toggle">
+                                                <input type="checkbox" checked id="chineseBqbToggle">
+                                                <span class="toggle-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="settings-divider"></div>
+                                    <div class="settings-row">
+                                        <div class="settings-row-header">
+                                            <div class="settings-row-title">抖音</div>
+                                            <label class="settings-toggle">
+                                                <input type="checkbox" id="douyinToggle">
+                                                <span class="toggle-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="settings-divider"></div>
+                                    <div class="settings-row">
+                                        <div class="settings-row-header">
+                                            <div class="settings-row-title">微信</div>
+                                            <label class="settings-toggle">
+                                                <input type="checkbox" id="wechatToggle">
+                                                <span class="toggle-slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="settings-section">
+                                <div class="settings-section-label">关于</div>
+                                <div class="settings-card">
+                                    <div class="settings-about-content">
+                                        <div class="settings-app-name">Sticker</div>
+                                        <div class="settings-app-version">版本 1.0.0</div>
+                                        <div class="settings-app-description">一个简洁的表情包下载工具</div>
+                                        <div class="settings-app-copyright">© 2026 bitloom</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-description">
+        <h1 class="project-title">Sticker</h1>
+        <p class="project-subtitle">简洁的表情包下载工具</p>
+        <div class="project-features">
+            <div class="feature-item">
+                <div class="feature-icon">🔍</div>
+                <div class="feature-text">
+                    <h3>多平台搜索</h3>
+                    <p>支持从抖音、微信等多个平台搜索表情包</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">⚡</div>
+                <div class="feature-text">
+                    <h3>快速下载</h3>
+                    <p>一键下载表情包，简单快捷</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🎨</div>
+                <div class="feature-text">
+                    <h3>简洁界面</h3>
+                    <p>清爽的界面设计，操作直观</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🤖</div>
+                <div class="feature-text">
+                    <h3>AI 生成</h3>
+                    <p>支持使用 AI 生成表情包</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

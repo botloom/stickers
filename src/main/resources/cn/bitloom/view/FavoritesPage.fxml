@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="favoritesPage" styleClass="favorites-page" visible="false" managed="false" VBox.vgrow="ALWAYS"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="cn.bitloom.controller.FavoritesPageController"
+      alignment="TOP_CENTER"
+      spacing="15"
+>
+    <ScrollPane fitToWidth="true" fitToHeight="true" hbarPolicy="NEVER" VBox.vgrow="ALWAYS"
+                styleClass="favorites-scroll-pane" prefWidth="700" maxWidth="700">
+        <VBox styleClass="favorites-content" spacing="20" maxWidth="700" minWidth="300">
+            <FlowPane fx:id="favoritesGrid" styleClass="grid-container" hgap="16" vgap="16" alignment="TOP_LEFT"/>
+        </VBox>
+    </ScrollPane>
+</VBox>

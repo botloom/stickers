@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="settingsPage" styleClass="settings-page" visible="false" managed="false" VBox.vgrow="ALWAYS"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="cn.bitloom.controller.SettingsPageController"
+      alignment="TOP_CENTER"
+>
+    <ScrollPane fitToWidth="true" fitToHeight="true" hbarPolicy="NEVER" VBox.vgrow="ALWAYS"
+                styleClass="settings-scroll-pane" prefWidth="600" maxWidth="700">
+        <VBox styleClass="settings-content">
+            <VBox>
+                <Label text="浏览器" styleClass="settings-section-label"/>
+                <VBox styleClass="settings-card">
+                    <VBox styleClass="settings-row">
+                        <Label text="浏览器路径" styleClass="settings-row-title"/>
+                        <HBox alignment="CENTER_LEFT" spacing="12" styleClass="settings-path-row">
+                            <TextField fx:id="browserPathTextField" styleClass="settings-path-field" HBox.hgrow="ALWAYS"
+                                       promptText="选择浏览器可执行文件"/>
+                            <Button fx:id="browseBrowserButton" text="更改" styleClass="settings-secondary-button"/>
+                        </HBox>
+                        <Label text="用于抓取表情包的浏览器路径" styleClass="settings-row-subtitle" wrapText="true"/>
+                    </VBox>
+                </VBox>
+            </VBox>
+
+            <VBox>
+                <Label text="下载" styleClass="settings-section-label"/>
+                <VBox styleClass="settings-card">
+                    <VBox styleClass="settings-row">
+                        <Label text="保存位置" styleClass="settings-row-title"/>
+                        <HBox alignment="CENTER_LEFT" spacing="12" styleClass="settings-path-row">
+                            <TextField fx:id="savePathTextField" styleClass="settings-path-field" HBox.hgrow="ALWAYS"
+                                       promptText="选择保存目录"/>
+                            <Button fx:id="browseButton" text="更改" styleClass="settings-secondary-button"/>
+                        </HBox>
+                    </VBox>
+                </VBox>
+            </VBox>
+
+            <VBox>
+                <Label text="抓取源" styleClass="settings-section-label"/>
+                <VBox styleClass="settings-card" fx:id="fetchSourceContainer"/>
+            </VBox>
+
+            <VBox>
+                <Label text="关于" styleClass="settings-section-label"/>
+                <VBox>
+                    <VBox styleClass="settings-about-content" spacing="4">
+                        <Label text="Sticker" styleClass="settings-app-name"/>
+                        <Label text="版本 1.0.0" styleClass="settings-app-version"/>
+                        <Label text="一个简洁的表情包下载工具" styleClass="settings-app-description"/>
+                        <Label text="© 2026 bitloom" styleClass="settings-app-copyright"/>
+                    </VBox>
+                </VBox>
+            </VBox>
+
+            <Region VBox.vgrow="ALWAYS" styleClass="settings-spacer"/>
+
+        </VBox>
+    </ScrollPane>
+</VBox>

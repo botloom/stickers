@@ -1,0 +1,978 @@
+/* Apple Design Style - Matching emotion.js V22 */
+
+.window-container {
+    -fx-background-color: transparent;
+}
+
+.app-content {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    -fx-border-style: solid;
+    -fx-border-radius: 0px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 20, 0, 0, 5);
+    -fx-padding: 0;
+}
+
+.floating-ball {
+    -fx-pref-width: 70;
+    -fx-pref-height: 70;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 20, 0, 0, 8);
+    -fx-alignment: center;
+}
+
+.floating-ball ImageView {
+    -fx-smooth: true;
+    -fx-cache: true;
+    -fx-image-rendering: auto;
+}
+
+.floating-ball:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 30, 0, 0, 12);
+}
+
+.floating-ball:pressed {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 15, 0, 0, 6);
+}
+
+.header {
+    -fx-background-color: transparent;
+    -fx-border-color: yellow;
+    -fx-padding: 18px 20px 0px 20px;
+    -fx-spacing: 0;
+    -fx-alignment: center-left;
+}
+
+.title-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #1d1d1f;
+}
+
+.search-field {
+    -fx-font-size: 14px;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-prompt-text-fill: #86868b;
+    -fx-text-fill: #333;
+    -fx-padding: 0 60 0 16;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.search-field:focused {
+    -fx-background-color: transparent;
+}
+
+.search-btn {
+    -fx-font-size: 12px;
+    -fx-font-weight: 400;
+    -fx-font-family: "Segoe UI", system, sans-serif;
+    -fx-background-color: #e5e5ea;
+    -fx-background-radius: 50%;
+    -fx-background-insets: 0;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+    -fx-padding: 6;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-alignment: CENTER;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 2, 0, 0, 1);
+}
+
+.search-btn:hover {
+    -fx-background-color: #d0d0d5;
+}
+
+.search-btn:pressed {
+    -fx-background-color: #c0c0c5;
+}
+
+.icon-btn {
+    -fx-font-size: 12px;
+    -fx-font-weight: 400;
+    -fx-font-family: "Segoe UI", system, sans-serif;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 50%;
+    -fx-background-insets: 0;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+    -fx-padding: 6;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-alignment: CENTER;
+}
+
+.icon-btn:hover {
+    -fx-background-color: #f5f5f7;
+}
+
+.icon-btn:pressed {
+    -fx-background-color: #e5e5ea;
+}
+
+.clear-btn {
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-text-fill: #0071e3;
+    -fx-cursor: hand;
+    -fx-pref-height: 26;
+    -fx-padding: 4 10;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.clear-btn:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dynamic-btn {
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-text-fill: #0071e3;
+    -fx-cursor: hand;
+    -fx-pref-height: 26;
+    -fx-padding: 4 10;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.dynamic-btn:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+.status-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: 400;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: transparent;
+    -fx-text-fill: #86868b;
+    -fx-padding: 4 8;
+    -fx-alignment: center-left;
+    -fx-cursor: default;
+}
+
+.status-label:hover {
+    -fx-text-fill: #1d1d1f;
+}
+
+.minimize-btn {
+    -fx-font-size: 18px;
+    -fx-font-weight: 400;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-text-fill: #86868b;
+    -fx-cursor: hand;
+    -fx-pref-width: 26;
+    -fx-pref-height: 26;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.minimize-btn:hover {
+    -fx-background-color: #e8e8ed;
+    -fx-text-fill: #000000;
+}
+
+.close-btn {
+    -fx-font-size: 18px;
+    -fx-font-weight: 400;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-background-radius: 50%;
+    -fx-background-insets: 0;
+    -fx-text-fill: #86868b;
+    -fx-cursor: hand;
+    -fx-pref-width: 26;
+    -fx-pref-height: 26;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.close-btn:hover {
+    -fx-background-color: #e8e8ed;
+    -fx-text-fill: #000000;
+}
+
+.status-bar {
+    -fx-font-size: 11px;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-font-weight: 500;
+    -fx-text-fill: #86868b;
+    -fx-padding: 0 20px 0 20px;
+    -fx-alignment: center-left;
+}
+
+.status-bar-container {
+    -fx-alignment: center;
+    -fx-padding: 0;
+    -fx-spacing: 0;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-hbar-policy: never;
+    -fx-background-radius: 25px;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+    -fx-background-radius: 25px;
+}
+
+.scroll-pane > .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+    -fx-opacity: 0;
+}
+
+.scroll-pane > .scroll-bar:vertical:hover {
+    -fx-opacity: 1;
+}
+
+.scroll-pane > .scroll-bar:vertical > .track {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+.scroll-pane > .scroll-bar:vertical > .thumb {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+    -fx-background-radius: 3px;
+    -fx-pref-width: 6px;
+}
+
+.scroll-pane > .scroll-bar:vertical:hover > .thumb {
+    -fx-background-color: rgba(0, 0, 0, 0.35);
+}
+
+.scroll-pane > .scroll-bar:vertical:pressed > .thumb {
+    -fx-background-color: rgba(0, 0, 0, 0.45);
+}
+
+.scroll-pane > .scroll-bar:vertical > .increment-button,
+.scroll-pane > .scroll-bar:vertical > .decrement-button {
+    -fx-pref-height: 0;
+    -fx-pref-width: 0;
+    -fx-opacity: 0;
+}
+
+.grid-container {
+    -fx-hgap: 16;
+    -fx-vgap: 16;
+    -fx-padding: 16 20 0 20;
+    -fx-alignment: top-center;
+    -fx-background-color: transparent;
+}
+
+.card {
+    -fx-background-color: #f5f5f7;
+    -fx-background-radius: 16px;
+    -fx-background-insets: 0;
+    -fx-cursor: hand;
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.06), 8, 0, 0, 2);
+    -fx-padding: 0;
+    -fx-border-radius: 16px;
+    -fx-transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.card:hover {
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.12), 20, 0, 0, 6);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+    -fx-translate-y: -2;
+}
+
+.card:pressed {
+    -fx-scale-x: 0.97;
+    -fx-scale-y: 0.97;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 6, 0, 0, 2);
+}
+
+.card-image {
+    -fx-fit-width: 100;
+    -fx-fit-height: 100;
+    -fx-preserve-ratio: false;
+    -fx-smooth: true;
+    -fx-image-rendering: auto;
+    -fx-background-color: #f5f5f7;
+}
+
+.card-placeholder {
+    -fx-background-color: #f5f5f7;
+    -fx-background-radius: 16px;
+    -fx-alignment: center;
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+}
+
+.card-error-label {
+    -fx-font-size: 24;
+}
+
+.gif-dot {
+    -fx-background-color: #ff3b30;
+    -fx-background-radius: 50%;
+    -fx-pref-width: 6;
+    -fx-pref-height: 6;
+    -fx-effect: dropshadow(gaussian, rgba(255, 59, 48, 0.5), 2, 0, 0, 1);
+    -fx-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover .gif-dot {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(gaussian, rgba(255, 59, 48, 0.6), 3, 0, 0, 1);
+}
+
+.load-more-btn {
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-text-fill: #0071e3;
+    -fx-cursor: hand;
+    -fx-pref-height: 26;
+    -fx-padding: 4 10;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-alignment: center;
+}
+
+.load-more-btn:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+.load-more-btn:pressed {
+    -fx-background-color: rgba(0, 0, 0, 0.15);
+}
+
+.load-more-btn:disabled {
+    -fx-opacity: 0.5;
+    -fx-cursor: default;
+}
+
+.load-more-container {
+    -fx-padding: 12px 20px 16px 20px;
+}
+
+/* Sidebar Styles */
+.button-bar {
+    -fx-background-color: transparent;
+    -fx-padding: 8px 20px 8px 20px;
+    -fx-spacing: 8;
+    -fx-alignment: center-left;
+}
+
+.main-content-inner {
+    -fx-background-color: transparent;
+    -fx-spacing: 0;
+    -fx-alignment: top-left;
+    -fx-fill-width: true;
+}
+
+.sidebar {
+    -fx-background-color: #ffffff;
+    -fx-pref-width: 200;
+    -fx-min-width: 200;
+    -fx-max-width: 200;
+    -fx-border-color: rgba(0, 0, 0, 0.08);
+    -fx-border-width: 0 1px 0 0;
+    -fx-background-radius: 0;
+}
+
+.sidebar-content {
+    -fx-padding: 8 12;
+    -fx-spacing: 4;
+}
+
+.sidebar-header {
+    -fx-padding: 20 16 12 16;
+}
+
+.sidebar-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-font-family: "SF Pro Display",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #1d1d1f;
+}
+
+.sidebar-separator {
+    -fx-padding: 0 16 0 16;
+    -fx-background-color: rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-footer {
+    -fx-padding: 12 16 16 16;
+    -fx-alignment: center-left;
+}
+
+.sidebar-version {
+    -fx-font-size: 11px;
+    -fx-font-weight: 400;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #86868b;
+}
+
+.sidebar-option {
+    -fx-background-color: transparent;
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-cursor: hand;
+    -fx-pref-height: 40;
+    -fx-padding: 0 12;
+    -fx-spacing: 12;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-alignment: center-left;
+}
+
+.sidebar-option:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-option:pressed {
+    -fx-background-color: rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-option.active {
+    -fx-background-color: rgba(0, 113, 227, 0.1);
+}
+
+.sidebar-option.active .sidebar-icon {
+    -fx-text-fill: #0071e3;
+}
+
+.sidebar-option.active .sidebar-option-label {
+    -fx-text-fill: #0071e3;
+}
+
+.sidebar-icon {
+    -fx-font-size: 18px;
+    -fx-font-family: "Segoe UI Symbol", "Apple Symbols", "Symbola", sans-serif;
+    -fx-text-fill: #1d1d1f;
+    -fx-min-width: 24px;
+    -fx-alignment: center;
+}
+
+.sidebar-option-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #1d1d1f;
+}
+
+/* Settings Page Styles */
+.settings-page {
+    -fx-background-color: #ffffff;
+    -fx-padding: 24;
+    -fx-alignment: top-center;
+}
+
+.settings-scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.settings-scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.settings-scroll-pane > .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+    -fx-opacity: 0;
+}
+
+.settings-scroll-pane > .scroll-bar:vertical:hover {
+    -fx-opacity: 1;
+}
+
+.settings-scroll-pane > .scroll-bar:vertical > .track {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+.settings-scroll-pane > .scroll-bar:vertical > .thumb {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+    -fx-background-radius: 3px;
+    -fx-pref-width: 6px;
+}
+
+.settings-scroll-pane > .scroll-bar:vertical:hover > .thumb {
+    -fx-background-color: rgba(0, 0, 0, 0.35);
+}
+
+.settings-scroll-pane > .scroll-bar:vertical:pressed > .thumb {
+    -fx-background-color: rgba(0, 0, 0, 0.45);
+}
+
+.settings-scroll-pane > .scroll-bar:vertical > .increment-button,
+.settings-scroll-pane > .scroll-bar:vertical > .decrement-button {
+    -fx-pref-height: 0;
+    -fx-pref-width: 0;
+    -fx-opacity: 0;
+}
+
+.settings-content {
+    -fx-spacing: 32;
+    -fx-padding: 0 32 32 32;
+}
+
+.settings-section-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #86868b;
+    -fx-text-transform: uppercase;
+    -fx-letter-spacing: 0.5;
+    -fx-padding: 0 0 4 0;
+}
+
+.settings-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12px;
+    -fx-background-insets: 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.04), 12, 0, 0, 2);
+    -fx-border-color: rgba(0, 0, 0, 0.08);
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-border-insets: 0;
+}
+
+.settings-row {
+    -fx-padding: 16 20;
+    -fx-spacing: 6;
+}
+
+.settings-row-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: 500;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #1d1d1f;
+}
+
+.settings-row-subtitle {
+    -fx-font-size: 13px;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #86868b;
+    -fx-wrap-text: true;
+    -fx-padding: 0 0 0 0;
+}
+
+.settings-divider {
+    -fx-padding: 0 20;
+}
+
+.settings-divider .line {
+    -fx-background-color: rgba(0, 0, 0, 0.08);
+    -fx-pref-height: 1px;
+}
+
+.settings-toggle {
+    -fx-cursor: hand;
+    -fx-padding: 0;
+    -fx-mark-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.settings-toggle .box {
+    -fx-background-color: #e5e5ea;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-radius: 10px;
+    -fx-pref-width: 36px;
+    -fx-pref-height: 20px;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.04), 2, 0, 0, 0.5);
+}
+
+.settings-toggle:hover .box {
+    -fx-background-color: #d8d8de;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 6, 0, 0, 2);
+}
+
+.settings-toggle:armed .box {
+    -fx-background-color: #c8c8ce;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.04), 2, 0, 0, 0.5);
+}
+
+.settings-toggle:selected .box {
+    -fx-background-color: linear-gradient(to right, #0071e3, #0077ed);
+    -fx-effect: dropshadow(gaussian, rgba(0, 113, 227, 0.3), 8, 0, 0, 2);
+}
+
+.settings-toggle:selected:hover .box {
+    -fx-background-color: linear-gradient(to right, #0077ed, #007df7);
+    -fx-effect: dropshadow(gaussian, rgba(0, 113, 227, 0.4), 10, 0, 0, 3);
+}
+
+.settings-toggle:selected:armed .box {
+    -fx-background-color: linear-gradient(to right, #0066cc, #006cd6);
+    -fx-effect: dropshadow(gaussian, rgba(0, 113, 227, 0.25), 6, 0, 0, 1.5);
+}
+
+.settings-toggle .mark {
+    -fx-shape: "M0,0 L0,0";
+    -fx-scale-shape: false;
+    -fx-background-color: transparent;
+    -fx-background-insets: -100000;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-insets: -100000;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+    -fx-stroke-type: inside;
+    -fx-fill: transparent;
+    -fx-opacity: 0;
+    -fx-visibility: hidden;
+    -fx-pref-width: 0.0001;
+    -fx-pref-height: 0.0001;
+    -fx-min-width: 0.0001;
+    -fx-min-height: 0.0001;
+    -fx-max-width: 0.0001;
+    -fx-max-height: 0.0001;
+    -fx-scale-x: 0.0001;
+    -fx-scale-y: 0.0001;
+    -fx-padding: -100000;
+    -fx-margin: -100000;
+}
+
+.settings-toggle:selected .mark {
+    -fx-shape: "M0,0 L0,0";
+    -fx-scale-shape: false;
+    -fx-background-color: transparent;
+    -fx-background-insets: -100000;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-insets: -100000;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+    -fx-stroke-type: inside;
+    -fx-fill: transparent;
+    -fx-opacity: 0;
+    -fx-visibility: hidden;
+    -fx-scale-x: 0.0001;
+    -fx-scale-y: 0.0001;
+    -fx-padding: -100000;
+    -fx-margin: -100000;
+}
+
+.settings-path-row {
+    -fx-padding: 8 0 0 0;
+}
+
+.settings-path-field {
+    -fx-font-size: 13px;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: #f5f5f7;
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-prompt-text-fill: #86868b;
+    -fx-text-fill: #1d1d1f;
+    -fx-pref-height: 32px;
+    -fx-padding: 6 12;
+}
+
+.settings-path-field:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #0071e3;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8px;
+    -fx-background-insets: 1.5px;
+}
+
+.settings-secondary-button {
+    -fx-font-size: 13px;
+    -fx-font-weight: 500;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: #f5f5f7;
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-text-fill: #0071e3;
+    -fx-cursor: hand;
+    -fx-pref-height: 32px;
+    -fx-padding: 0 14px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.settings-secondary-button:hover {
+    -fx-background-color: #e8e8ed;
+}
+
+.settings-secondary-button:pressed {
+    -fx-background-color: #d1d5db;
+}
+
+.settings-input {
+    -fx-font-size: 15px;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-background-color: #f5f5f7;
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-prompt-text-fill: #86868b;
+    -fx-text-fill: #1d1d1f;
+    -fx-pref-height: 36px;
+    -fx-padding: 8 12;
+}
+
+.settings-input:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #0071e3;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8px;
+    -fx-background-insets: 1.5px;
+}
+
+.settings-about-card {
+    -fx-alignment: center;
+}
+
+.settings-about-content {
+    -fx-padding: 24 20;
+    -fx-alignment: center;
+}
+
+.settings-app-name {
+    -fx-font-size: 22px;
+    -fx-font-weight: 700;
+    -fx-font-family: "SF Pro Display",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #1d1d1f;
+}
+
+.settings-app-version {
+    -fx-font-size: 13px;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #86868b;
+    -fx-padding: 2 0 0 0;
+}
+
+.settings-app-description {
+    -fx-font-size: 14px;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #6e6e73;
+    -fx-padding: 8 0 0 0;
+}
+
+.settings-app-copyright {
+    -fx-font-size: 12px;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #86868b;
+    -fx-padding: 16 0 0 0;
+}
+
+.settings-spacer {
+    -fx-min-height: 40;
+}
+
+/* Favorites Page Styles */
+.favorites-page {
+    -fx-background-color: transparent;
+}
+
+.favorites-content {
+    -fx-background-color: transparent;
+}
+
+.favorites-empty-label {
+    -fx-font-size: 15px;
+    -fx-font-weight: 500;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #86868b;
+    -fx-alignment: center;
+    -fx-padding: 40 0;
+}
+
+/* Context Menu Styles */
+.context-menu {
+    -fx-background-color: rgba(255, 255, 255, 0.95);
+    -fx-background-radius: 12px;
+    -fx-background-insets: 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 20, 0, 0, 8);
+    -fx-border-color: rgba(0, 0, 0, 0.08);
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-padding: 6;
+}
+
+.context-menu .menu-item {
+    -fx-background-color: transparent;
+    -fx-background-radius: 6px;
+    -fx-background-insets: 0;
+    -fx-padding: 8 12;
+    -fx-cursor: hand;
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+}
+
+.context-menu .menu-item:pressed {
+    -fx-background-color: rgba(0, 0, 0, 0.08);
+}
+
+.context-menu .menu-item .label {
+    -fx-font-size: 13px;
+    -fx-font-weight: 400;
+    -fx-font-family: "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+    -fx-text-fill: #1d1d1f;
+}
+
+.context-menu .separator {
+    -fx-background-color: rgba(0, 0, 0, 0.08);
+    -fx-pref-height: 1px;
+    -fx-padding: 4 0;
+}
