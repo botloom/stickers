@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85f2b40c-1778-4427-b2a8-50fabba6e091" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/StickersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/enums/FetchSourceEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/enums/ImageFileExtensionEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/holder/PageHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/model/ImageData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/service/WeChatFetchSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/store/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/util/BrowserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/util/ExecutorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/bitloom/util/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/bitloom/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cn/bitloom/index.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/chineseBqb.json" afterDir="false" />
-    </list>
+    <list default="true" id="85f2b40c-1778-4427-b2a8-50fabba6e091" name="更改" comment="feat(stickers):init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,12 +32,12 @@
     &quot;assignee&quot;: &quot;botloom&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Microsoft/vcpkg.git&quot;,
-    &quot;accountId&quot;: &quot;3197f23a-ebe5-4788-954d-9c744e3bdb09&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/botloom/stickers.git",
+    "accountId": "3197f23a-ebe5-4788-954d-9c744e3bdb09"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -218,12 +200,25 @@
       <workItem from="1770772434301" duration="25575000" />
       <workItem from="1770808135637" duration="3963000" />
       <workItem from="1770858515243" duration="15821000" />
-      <workItem from="1770895302611" duration="812000" />
+      <workItem from="1770895302611" duration="1130000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(stickers):init">
+      <option name="closed" value="true" />
+      <created>1770896269484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770896269484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(stickers):init" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(stickers):init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
