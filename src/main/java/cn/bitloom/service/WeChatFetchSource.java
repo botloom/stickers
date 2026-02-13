@@ -45,6 +45,7 @@ public class WeChatFetchSource implements FetchSource {
                 try {
                     this.page.waitForTimeout(1000);
                 } catch (Exception e) {
+                    log.error("监听异常", e);
                     break;
                 }
             }

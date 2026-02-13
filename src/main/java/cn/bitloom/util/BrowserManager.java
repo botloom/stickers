@@ -19,10 +19,10 @@ import java.util.Objects;
 @Slf4j
 public class BrowserManager {
 
-    private static final Playwright playwright;
-    private static final Process chromeProcess;
-    private static final Browser browser;
-    private static final BrowserContext context;
+    private static Playwright playwright;
+    private static Process chromeProcess;
+    private static Browser browser;
+    private static BrowserContext context;
 
     static {
         try {
@@ -38,7 +38,7 @@ public class BrowserManager {
             browser = playwright.chromium().connectOverCDP("http://localhost:" + port);
             context = browser.contexts().isEmpty() ? browser.newContext() : browser.contexts().get(0);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            log.error("浏览器连接失败", e);
         }
     }
 
